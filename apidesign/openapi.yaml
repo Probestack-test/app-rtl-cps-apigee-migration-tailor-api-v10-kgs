@@ -1,0 +1,91 @@
+openapi: 3.0.3
+info:
+  title: apigee-migration-tailor-api-v10
+  version: 1.0.0
+  description: Operational baseline generated from observed Kong Konnect configuration.
+servers:
+- url: https://apigee-migration-tailor-api-v10-upstream/
+paths:
+  /apigee-migration-tailor-api-v10:
+    delete:
+      operationId: deleteApigeeMigrationTailorApiV10_ae163fd1
+      summary: apigee-migration-tailor-api-v10-route-default
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 12485ad4-11f5-4091-93ac-4048bc3bbd0f
+      x-kong-plugin-summary:
+      - pre-function
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+    get:
+      operationId: getApigeeMigrationTailorApiV10_8df9722e
+      summary: apigee-migration-tailor-api-v10-route-default
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 12485ad4-11f5-4091-93ac-4048bc3bbd0f
+      x-kong-plugin-summary:
+      - pre-function
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+    head:
+      operationId: headApigeeMigrationTailorApiV10_565472cb
+      summary: apigee-migration-tailor-api-v10-route-default
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 12485ad4-11f5-4091-93ac-4048bc3bbd0f
+      x-kong-plugin-summary:
+      - pre-function
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+    options:
+      operationId: optionsApigeeMigrationTailorApiV10_80e77111
+      summary: apigee-migration-tailor-api-v10-route-default
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 12485ad4-11f5-4091-93ac-4048bc3bbd0f
+      x-kong-plugin-summary:
+      - pre-function
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+    patch:
+      operationId: patchApigeeMigrationTailorApiV10_6d7d3743
+      summary: apigee-migration-tailor-api-v10-route-default
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 12485ad4-11f5-4091-93ac-4048bc3bbd0f
+      x-kong-plugin-summary:
+      - pre-function
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+    post:
+      operationId: postApigeeMigrationTailorApiV10_fbfad266
+      summary: apigee-migration-tailor-api-v10-route-default
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 12485ad4-11f5-4091-93ac-4048bc3bbd0f
+      x-kong-plugin-summary:
+      - pre-function
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+    put:
+      operationId: putApigeeMigrationTailorApiV10_b5aa4382
+      summary: apigee-migration-tailor-api-v10-route-default
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 12485ad4-11f5-4091-93ac-4048bc3bbd0f
+      x-kong-plugin-summary:
+      - pre-function
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+x-kong-source:
+  serviceId: 4a9c0d44-70a1-4bc1-8674-446ee0b542c6
+  snapshotFingerprint: 07cea5136085320a7d1a760a482942009d20bec1206588859bbf39aee15301c0
+  controlPlaneId: edb363b5-777a-445c-a190-5ca0d53c0c12
+x-kong-unmapped-routes: []
