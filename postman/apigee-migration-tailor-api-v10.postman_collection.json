@@ -1,0 +1,146 @@
+{
+  "info": {
+    "name": "apigee-migration-tailor-api-v10 Postman Collection",
+    "description": "Operational baseline generated from observed Kong Konnect configuration.\n\nOpenAPI version: 3.0.3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "noauth"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://apigee-migration-tailor-api-v10-upstream/",
+      "type": "string",
+      "description": "Override with the base URL of the deployed Kong gateway."
+    }
+  ],
+  "item": [
+    {
+      "name": "apigee-migration-tailor-api-v10-route-default",
+      "request": {
+        "method": "DELETE",
+        "description": "apigee-migration-tailor-api-v10-route-default\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/apigee-migration-tailor-api-v10",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "apigee-migration-tailor-api-v10"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "apigee-migration-tailor-api-v10-route-default",
+      "request": {
+        "method": "GET",
+        "description": "apigee-migration-tailor-api-v10-route-default\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/apigee-migration-tailor-api-v10",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "apigee-migration-tailor-api-v10"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "apigee-migration-tailor-api-v10-route-default",
+      "request": {
+        "method": "HEAD",
+        "description": "apigee-migration-tailor-api-v10-route-default\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/apigee-migration-tailor-api-v10",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "apigee-migration-tailor-api-v10"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "apigee-migration-tailor-api-v10-route-default",
+      "request": {
+        "method": "OPTIONS",
+        "description": "apigee-migration-tailor-api-v10-route-default\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/apigee-migration-tailor-api-v10",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "apigee-migration-tailor-api-v10"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "apigee-migration-tailor-api-v10-route-default",
+      "request": {
+        "method": "PATCH",
+        "description": "apigee-migration-tailor-api-v10-route-default\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/apigee-migration-tailor-api-v10",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "apigee-migration-tailor-api-v10"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "apigee-migration-tailor-api-v10-route-default",
+      "request": {
+        "method": "POST",
+        "description": "apigee-migration-tailor-api-v10-route-default\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/apigee-migration-tailor-api-v10",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "apigee-migration-tailor-api-v10"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "apigee-migration-tailor-api-v10-route-default",
+      "request": {
+        "method": "PUT",
+        "description": "apigee-migration-tailor-api-v10-route-default\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/apigee-migration-tailor-api-v10",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "apigee-migration-tailor-api-v10"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
